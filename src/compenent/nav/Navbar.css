@@ -1,0 +1,79 @@
+.nav_head{
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+
+.nav_reload{
+    scroll-behavior: smooth;
+    
+}
+
+.nav_head .navbar{
+    height: 100px;
+}
+
+.nav_head .navbar .navbar-brand img:nth-child(1){
+    padding: 10px 0;
+    height: 100px;
+    width: 100px;
+}
+
+
+.nav_head .navbar .navbar-brand img:nth-child(2){
+    padding: 10px 0;
+    height: 80px;
+    width: 230px;
+}
+
+
+.navbar .navbar-nav .nav-item{
+    font-size: 18px;
+    padding-right: 15px
+}
+
+.dropdown-menu {
+    display: none !important;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: inline-block !important;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    background-color: white !important;
+}
+
+.nav-item .dropdown-menu .dropdown-item{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width:800px){
+    .nav_head .navbar .navbar-brand img:nth-child(1){
+        height: 60px;
+        width: 80px;
+    }
+    
+    
+    .nav_head .navbar .navbar-brand img:nth-child(2){
+        height: 50px;
+        width: 150px;
+    }
+
+    .navbar .navbar-nav{
+        background-color: azure !important;
+    }
+    
+}

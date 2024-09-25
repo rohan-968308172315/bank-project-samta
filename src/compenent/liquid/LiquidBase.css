@@ -1,0 +1,137 @@
+.liquid1{
+    height: 240px;
+    width: 100%;
+    background-image: url('https://www.samatapat.com/admin/uploads/ourvisionpage/partner654a1eb0cf8cf.jpg');
+    background-size: cover;
+}
+
+.liquid1 .liquid_part1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.liquid2 .card{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.liquid2 .card .main_table1{
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.liquid2 .card .main_table1 th{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.liquid2 .card .main_table1 td{
+    text-align:justify;
+    padding: 10px;
+}
+
+
+
+
+.liquid2 .card .main_table2{
+    width: 40%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.liquid2 .card .main_table2 th{
+    padding: 10px;
+}
+
+
+.liquid2 .card .main_table2 td{
+    text-align:justify;
+    padding: 10px;
+}
+
+.liquid2 .header_head2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+.liquid2 .header_head2 h5{
+    font-size: 27px;
+    color: rgb(41, 41, 126);
+}
+
+
+.liquid2 .header_head2 .form_control {
+    width: 99%;
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 10px 0 10px 4px;
+}
+
+.liquid2 .header_head2 .form_control:active {
+    border: none;
+    outline: none;
+}
+
+.liquid2 .header_head2 .Apply_btn {
+    background-color: rgb(76, 167, 30);
+    color: white;
+    width:93%;
+    padding: 10px 0 10px 4px;
+    border: none;
+    transition: 0.8s;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.liquid2 .header_head2 .Apply_btn:hover {
+    background-color: rgb(67, 52, 241);
+}
+
+.liquid2 .card p{
+    line-height: 40px;
+}
+
+@media(max-width:800px){
+    .liquid2 .card .main_table2{
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .liquid2 .card .main_table1{
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    .liquid2 .header_head2 {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 30px;
+        width: 94%;
+        margin-left: 3%;
+        margin-top: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+    }
+    .liquid1 .about1 .liquid_part1 h1{
+        color: white;
+    }
+    .liquid1 .about1 .nav_links{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .liquid2 .header_head2 .form_control {
+        width: 98%;
+        margin-left: 1%;
+        padding: 10px 0 10px 4px;
+    }
+}

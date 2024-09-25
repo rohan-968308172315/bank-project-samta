@@ -1,0 +1,184 @@
+.personal_loan{
+    height: 240px;
+    width: 100%;
+    background-image: url('https://www.samatapat.com/admin/uploads/ourvisionpage/partner654a1eb0cf8cf.jpg');
+    background-size: cover;
+}
+
+.personal_loan .nav_links{
+    color: black;
+    text-decoration: none;
+}
+
+.personal_loan .personal_loan_part1{
+    padding-top: 50px;
+}
+
+.mobile_banking .card{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+
+.mobile_banking .card img{
+    border: 1px solid black;
+}
+
+.mobile_banking .mobile_banking_part1{
+    border-bottom: 1px dotted black;
+}
+
+.mobile_banking .mobile_banking_part2{
+    border-bottom: 1px dotted black;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mobile_banking .term_deposite_head2 ul li .nav_links {
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.mobile_banking .term_deposite_head2 ul li .nav_links:hover {
+    color: rgb(85, 181, 61);
+    transition: 0.7s;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.mobile_banking .mobile_banking_part2 ul li::before {
+    content: "✓✓";
+    line-height: 40px;
+    padding:  0 10px 0 0 ;
+}
+
+@media(max-width:800px){
+    .personal_loan{
+        height: 240px;
+        background-image: url('https://www.samatapat.com/admin/uploads/ourvisionpage/partner654a1eb0cf8cf.jpg');
+        background-size: cover;
+    }
+    .personal_loan .personal_loan_part1{
+        color: white;
+    }
+    .personal_loan .nav_links{
+        color: white;
+        text-decoration: none;
+    }
+   
+}
+
+
+
+.mobile_banking .personal_loan2_part1 {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+
+.mobile_banking #nead1 {
+    display: block;
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+.mobile_banking #nead2,
+#nead3,#nead4 {
+    border: 1px solid black;
+    display: none;
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.mobile_banking .personal_loan2_part1 button {
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    border-top: 2px solid rgb(78, 164, 65);
+}
+
+@media(max-width:800px) {
+    .mobile_banking .personal_loan2_part1 {
+        display: flex;
+        gap: 10px;
+        padding-left: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .mobile_banking .personal_loan2_part1 button {
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 2px solid rgb(78, 164, 65);
+    }
+}
+
+.mobile_banking .personal_loan2_part2{
+    padding: 20px;
+}
+
+.mobile_banking .personal_loan2_part2 table th{
+    background-color: rgb(40, 113, 24);
+    color: white;
+    padding: 10px;
+}
+
+.mobile_banking .personal_loan2_part2 table td{
+    padding: 10px;
+}
+
+.mobile_banking .term_deposite2_part2 .Apply_btn {
+    background-color: rgb(76, 167, 30);
+    color: white;
+    width:20%;
+    padding: 10px 0 10px 4px;
+    border: none;
+    transition: 0.8s;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.mobile_banking .term_deposite2_part2 .Apply_btn:hover {
+    background-color: rgb(67, 52, 241);
+}
+
+
+
+.term_deposit3 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: rgb(64, 64, 214);
+    justify-content: center;
+}
+
+.term_deposit3 button{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.term_deposit3 button:hover{
+    background-color: white;
+    transition: 0.7s;
+    color: rgb(50, 31, 119);
+
+}
